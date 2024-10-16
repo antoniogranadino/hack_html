@@ -1,0 +1,57 @@
+:root{
+    --bg-blue:#93B5C9;
+    --bg-wine:#AB2849;
+}
+
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+    
+
+.box-blue{
+    height: 90px;
+    background-color: var(--bg-blue)
+}
+
+.block-1{
+    height: 160px;
+    background-color: var(--bg-wine);
+}
+
+.block-team{
+    position: relative;
+    left: 90px;
+    margin: 10px;
+    background-color: white
+}
+
+.block-2{
+    margin: 10px;
+    height: 90px;
+    background-color: var(--bg-wine);
+}
+.block-3{
+    margin: 10px;
+    height: 90px;
+    background-color: var(--bg-wine);
+}
+
+.block-4{
+    margin: 10px;
+    height: 90px;
+    background-color: var(--bg-wine);
+}
+.block-5{
+    margin: 10px;
+    height: 90px;
+    background-color: var(--bg-wine);
+}
+
+.block-6{
+    margin: 10px 10px 5px 10px;
+    height: 80px;
+    background-color: var(--bg-wine)
+}
