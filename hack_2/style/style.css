@@ -1,0 +1,36 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+div{
+    height: 130px;
+    background-color: aqua;
+}
+
+.box-top :first-child{
+    height: 90px;
+    background-color: #93B5C9 ;
+}
+
+.box-top :last-child{
+    background-color: #AB2849;
+}
+
+.box-middle div{
+    width: 75%;
+    height: 90px;
+    margin: 15px 0px 10px 0px;
+    background-color: #AB2849;
+}
+
+.box-bottom{
+    background-color: #AB2849;
+    height: 90px;
+    margin: 5px 15px 5px 15px ;
+    
+}
+        
